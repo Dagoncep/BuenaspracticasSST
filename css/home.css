@@ -113,8 +113,8 @@ table[name='matrix']
 }
 
 table[name='matrix'] tr td{
-    width : 80px;
-    height  : 80px;
+    width : 130px;
+    height  : 130px;
     background-color: black;
     border-radius: 5px;
     transition: background-color 0.4s linear;
@@ -123,7 +123,7 @@ table[name='matrix'] tr td{
 .ele
 {
     background-repeat: no-repeat;
-    background-size: 80px 80px;
+    background-size: 100% 100%;
 }
 .container
 {

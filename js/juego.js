@@ -67,7 +67,7 @@ function changeImage(a)
              eles[eles.length-2].innerHTML="Jugador 1 : " + mode +" <span style='color : rgb(45,247,55);'>Completado</span>";
              document.getElementsByTagName("table")[0].style.display="none";
              document.getElementsByClassName("message")[0].style.display="block";
-             document.getElementsByClassName("message")[0].innerHTML=":) Felicitaciones. ¡Has desbloqueado todos los bloques!.";
+             document.getElementsByClassName("message")[0].innerHTML=":) Felicitaciones. ¡Has encontrado todas las parejas!.";
              document.getElementsByClassName("message-button")[0].style.display="block";
              return;
           }
@@ -146,8 +146,9 @@ function setBackground()
   arr.length=0;
   for(var i=1;i<=8;i++)
   {
-    arr.push("../img/org/"+String(i)+".jpg");
-    arr.push("../img/copy/"+String(i)+".jpg");
+    console.log(i);
+    arr.push("img/copy/"+String(i)+".jpg");
+    arr.push("img/copy/"+String(i)+".jpg");
   }
    arr = shuffle(arr);  
 
